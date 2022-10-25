@@ -20,7 +20,19 @@ We have written all CRUD routes but can't link\render pages accordingly.
 
 # Screenshots
 
-----Screenshots----
+<img src = "readmeIMG/LpHo.png" width= 50%>
+<img src = "readmeIMG/LpHo2.png" width= 50%>
+<img src = "readmeIMG/LpHo3.png" width= 50%>
+<img src = "readmeIMG/LpHo4.png" width= 50%>
+<img src = "readmeIMG/SignPg.png" width= 50%>
+<img src = "readmeIMG/cmdCus.png" width= 50%>
+<img src = "readmeIMG/SrPg.png" width= 50%>
+<img src = "readmeIMG/RePg.png" width= 50%>
+<img src = "readmeIMG/cart.png" width= 50%>
+<img src = "readmeIMG/revi.png" width= 50%>
+<img src = "readmeIMG/cmdRev.png" width= 50%>
+<img src = "readmeIMG/AddDish.png" width= 50%>
+
 
 
 # Hosted URL
