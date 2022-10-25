@@ -1,0 +1,85 @@
+/* CSS CHANGE FROM INDEX PAGE */
+.content {
+  min-height: calc(100vh - 221px);
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navParent1 {
+  background-color: black;
+}
+
+/* ............................................................. */
+
+.result-box {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  background-color: #ffd81b1c;
+  border-radius: 15px;
+  padding-left: 25px;
+}
+
+.result-left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.name {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+}
+
+.result-right {
+  font-size: 1.5rem;
+}
+
+.chkout form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.chkout form button {
+  background-color: white;
+  color: black;
+  padding: 9px 16px;
+  border: 1.6px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.2s ease;
+  width: 100px;
+  margin:auto;
+  margin-top: 10px;
+}
+
+.chkout form button:hover{
+    background-color: #ffd404;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+}
+
+@media (max-width: 750px) {
+  .result-box {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  .name {
+    font-size: 1.3rem;
+  }
+  .result-right {
+    font-size: 1.3rem;
+  }
+}

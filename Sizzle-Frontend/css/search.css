@@ -1,0 +1,95 @@
+/* CSS CHANGE FROM INDEX PAGE */
+.content {
+  min-height: calc(100vh - 197px);
+}
+
+.navParent1 {
+  background-color: black;
+}
+
+/* ............................................................. */
+a {
+  text-decoration: none;
+}
+.result-box {
+  color: black;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  background-color: #ffd81b61;
+  border-radius: 15px;
+  padding-left: 25px;
+}
+
+a:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+}
+
+.result-left {
+  width: 80px;
+}
+
+.result-left img {
+  height: 80px;
+  width: 80px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.result-right {
+  width: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  padding-right: 25px;
+}
+
+.inner-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.cop {
+  width: 105px;
+  padding: 3px;
+  border-radius: 10px;
+  display: inline-block;
+  color: gray;
+  font-weight: bold;
+}
+
+.loc {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.name {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 750px) {
+  .result-box {
+    width: 92%;
+  }
+}
+
+@media (max-width: 400px) {
+  .name {
+    font-size: 1.3rem;
+  }
+  .inner-bottom {
+    font-size: 0.7rem;
+  }
+  .result-right {
+    padding-right: 10px;
+  }
+}
