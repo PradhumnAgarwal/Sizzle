@@ -1,0 +1,566 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#preLoaderimg{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url(../images/Food_Loading.gif) center no-repeat;
+  /* background-color: aqua; */
+  z-index: 1000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.navParent {
+  width: 100%;
+  margin: auto;
+  background: url("../images/design-1.png") center center no-repeat;
+}
+
+@media (min-width: 1618px) {
+  .navParent {
+    background: url("../images/top-view-indian-food-frame-with-copy-space.jpg") center
+      center no-repeat;
+  }
+}
+
+.navParent1 {
+  background-color: rgba(0, 0, 0, 0.57);
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+}
+
+.logo {
+  cursor: pointer;
+
+  display: flex;
+  margin: 10px 34px;
+  z-index: 200;
+}
+
+.logo img {
+  width: 180px;
+  margin-right: 3px;
+}
+
+nav .mainMenu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 3%;
+  align-items: center;
+}
+
+nav .mainMenu li a {
+  display: inline-block;
+  font-weight: bold;
+  margin: 3px 15px;
+  padding: 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+  border-radius: 10px;
+}
+
+nav .mainMenu li a:hover {
+  color: rgb(236, 203, 43);
+  transition: all 0.3s ease-in-out;
+}
+
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+.login {
+  background: rgb(236, 203, 43);
+  border-radius: 10px;
+  border: 2px solid rgb(236, 203, 43);
+}
+
+.addRest a {
+  color: white;
+}
+
+.login a {
+  color: black;
+  font-size: 1.3rem;
+}
+
+nav .mainMenu li.login:hover a {
+  color: rgb(236, 203, 43);
+  transition: all 0.3s ease-in-out;
+}
+
+nav .mainMenu li.login:hover {
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: rgb(236, 203, 43);
+  transition: all 0.3s ease-in-out;
+
+}
+
+@media (max-width: 870px) {
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    margin-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(19, 39, 150, 0.9);
+    transition: top 1s ease 0s;
+    display: none;
+  }
+
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+  }
+
+  nav .openMenu {
+    display: block;
+  }
+
+  nav .mainMenu li a {
+    color: white;
+  }
+
+  nav .mainMenu li a:hover {
+    background: none;
+    color: rgb(244, 66, 66);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+}
+
+.hero {
+  height: 570px;
+  height: calc(100vh - 165px);
+}
+
+.hero-text {
+  width: 50%;
+  margin-left: 8%;
+  margin-top: 90px;
+  color: white;
+}
+
+.text-part-1 {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  cursor: default;
+}
+
+.text-part-1 h1 {
+  font-size: 1.2rem;
+  border: 1px solid rgb(236, 127, 43);
+  border-radius: 30px;
+  background-color: rgba(236, 78, 43, 0.32);
+  padding: 4px 30px;
+}
+
+.text-part-1 img {
+  width: 75px;
+}
+
+.text-part-3 {
+  margin-top: 30px;
+  margin-left: 4%;
+  font-size: 0.9rem;
+  padding: 3px;
+}
+
+.text-part-4 form input {
+  width: 500px;
+  padding: 12px 14px;
+  border: 2px solid transparent;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.text-part-4 form button:hover {
+  background-color: rgb(196, 164, 6);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.text-part-4 form button {
+  margin-bottom: 0px;
+  margin-left: 13px;
+  background-color: rgb(243, 213, 66);
+  border-radius: 8px;
+}
+
+.text-part-4 form button img {
+  width: 52px;
+}
+
+.text-part-4 form {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 30px;
+}
+
+.text-part-5 {
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
+
+.popular-restaurants img {
+  width: 70px;
+  margin: 0px 4px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.width92 {
+  width: 92%;
+  margin: auto;
+}
+
+.food-category h1,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.food-category h3 {
+  margin-top: 30px;
+  color: rgb(236, 203, 43);
+}
+
+.category {
+  font-size: 3rem;
+  margin-top: 5px;
+  padding: 20px 5px;
+}
+
+.cat-card {
+  width: 250px;
+  height: 260px;
+  padding: 10px;
+  padding-bottom: 25px;
+  margin: 20px 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cat-card:hover{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  background-color: rgb(232 232 232 / 37%);
+  transition: ease-in-out;
+}
+
+.cat-card img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+.cat-card-8 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-card-4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.cat-card-2 {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.featured-restaurant h1,
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.featured-restaurant h3 {
+  padding-top: 30px;
+  color: rgb(236, 203, 43);
+}
+
+.featured-restaurant {
+  background-color: #efefef;
+  margin-top: 20px;
+}
+
+.restaurant-card {
+  padding: 5px;
+  width: 280px;
+  margin: 30px 3px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.restaurant-card:hover{
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.4);
+  border: 1px solid rgb(0 0 0 / 0.4);  
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: 195px;
+  border-radius: 10px;
+
+}
+
+.restaurant-card h1 {
+  margin: 15px 1px;
+  font-size: 1.8rem;
+}
+
+.restaurant-card span {
+  padding: 3px 9px;
+  font-size: 1.3rem;
+  width: 100%;
+  color: gray;
+}
+
+.time-box {
+  margin-top: 30px;
+  border-top: 1px solid black;
+  font-size: 1.4rem;
+  color: rgb(236, 127, 43);
+  padding: 6px 2px;
+  text-align: center;
+}
+
+.delivery {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  width: 55%;
+  padding-left: 4%;
+  padding-top: 40px;
+}
+
+.img {
+  width: 45%;
+  padding-right: 2%;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+}
+
+.text h3 {
+  color: rgb(243, 213, 66);
+  justify-content: left;
+  margin-bottom: 30px;
+}
+
+.text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.text p {
+  width: 70%;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+.foot-logo {
+  width: 20%;
+  padding-top: 15px;
+}
+.foot-logo img {
+  height: 60px;
+  margin-left: 30px;
+}
+
+.foot-mid {
+  width: 60%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.foot-icon {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.foot-icon a {
+  margin-left: 30px;
+  cursor: pointer;
+  height: 25px;
+}
+
+.foot-icon a img {
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .cat-card-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-part-5 {
+    display: none;
+  }
+
+  .hero-text {
+    width: 84%;
+    margin: auto;
+    margin-top: 90px;
+  }
+
+  .hero {
+    height: 420px;
+  }
+}
+
+@media (max-width: 870px) {
+  .delivery {
+    flex-direction: column;
+  }
+
+  .text {
+    width: 84%;
+    margin: auto;
+  }
+
+  .img {
+    width: 65%;
+    margin: auto;
+  }
+
+  .foot-mid {
+    color: black;
+  }
+}
+
+@media (max-width: 590px) {
+  .navParent {
+    background: url("../images/texture.jpg");
+  }
+
+  .cat-card-4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-part-4 form {
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .text-part-4 form button img {
+    width: 42px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .foot-logo {
+    width: auto;
+  }
+
+  .foot-logo img {
+    margin: auto;
+  }
+
+  .foot-icon {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+  }
+
+  .foot-icon a {
+    margin: 0px 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-text {
+    width: 84%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .hero {
+    height: 570px;
+  }
+
+  .text-part-4 form {
+    flex-direction: column;
+  }
+
+  .text-part-4 form input {
+    width: 92%;
+    margin: auto;
+  }
+
+  .text-part-4 form button{
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
